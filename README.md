@@ -31,7 +31,7 @@ The first phase established the foundation of the simulation. The focus was on i
 * Modeled mass aggregation and center-of-mass calculations recursively within the tree
 * All functions were bound to strict performance constraints (e.g., < 1-minute per functional test) and required output consistency with predefined formats
 
-## Praktikum 3:
+## Praktikum 3: CUDA-Based GPU Acceleration
 * Implemented memory management and host-device data transfer using wrapped CUDA allocation and copy functions
 * Wrote GPU kernels for force calculation, velocity integration, and position updates, assigning one thread per body
 * Converted host-side types to CUDA-compatible formats (Vector2d ↔ double2) during memory transfer
